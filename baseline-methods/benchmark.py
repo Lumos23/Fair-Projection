@@ -253,7 +253,7 @@ class Benchmark:
             if calibrated: 
                 cpp = CalibratedEqOddsPostprocessing(privileged_groups = self._privileged_groups,
                                                      unprivileged_groups = self._unprivileged_groups,seed=rand_seed,
-                                                     cost_constraint=constraint)
+                                                     cost_constraint='weighted')
             else: 
                 cpp = EqOddsPostprocessing(privileged_groups = self._privileged_groups,
                                            unprivileged_groups = self._unprivileged_groups,seed=rand_seed)
@@ -453,7 +453,6 @@ class Benchmark:
             results[s+'_mean'].append(np.mean(sub_results[s]))
             results[s+'_std'].append(np.std(sub_results[s]))
 
-        return results
         return results
 
     def plot_results(models, methods, seed, output='benchmark.pdf'):
