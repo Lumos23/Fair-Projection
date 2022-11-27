@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 19 11:01:09 2020
-
-@author: flavio
-"""
 
 import pandas as pd
 import numpy as np
@@ -13,9 +8,10 @@ import sys
 from sklearn.preprocessing import MinMaxScaler
 
 #%% method for loading different datasets
-def load_data(name='adult'):
+def load_data(name='adult', modified = False):
     
     #% Processing for UCI-ADULT
+        
     if name == 'adult':
         file = '../data/UCI-Adult/adult.data'
         fileTest = '../data/UCI-Adult/adult.test'
@@ -52,13 +48,10 @@ def load_data(name='adult'):
         # binarize income
         # '>50k' = 1; '<=50k' = 0
         df.loc[:,'income'] = df['income'].apply(lambda x: 1 if x[0]=='>' else 0)
-        
-        
+
         # drop "education" and native-country (education already encoded in education-num)
         features_to_drop = ["education","native-country"]
         df.drop(features_to_drop,inplace=True,axis=1)
-        
-        
         
         # create one-hot encoding
         categorical_features = list(set(df)-set(df._get_numeric_data().columns))
@@ -67,8 +60,72 @@ def load_data(name='adult'):
         
         # reset index
         df.reset_index(inplace=True,drop=True)
+        if modified == True:
+            '''
+            using the selected and discretized variables as in FATO approach
+            '''
+            def get_discrete_age(row):
+                '''
+                discretize the age column into 3 buckets
+                '''
+                row_age = row['age'] 
+                if row_age < 20:
+                    return 0
+                elif row_age < 30:
+                    return 1
+                elif row_age < 40:
+                    return 2
+                elif row_age < 50:
+                    return 3
+                elif row_age < 60:
+                    return 4
+                else:
+                    return 5
         
-    
+            def get_discrete_edu(row):
+                '''
+                discretize the education_num column into 3 buckets
+                '''
+                row_edu = row['education-num']
+                if row_edu < 10:
+                    return 0
+                elif row_edu < 13:
+                    return 1
+                else:
+                    return 2
+            
+            def get_discrete_hours(row):
+                '''
+                discretize the hours per week column into intervals of 10, up till 70 hours per week
+                '''
+                row_hours = row['hours-per-week']
+                if row_hours < 10:
+                    return 0
+                elif row_hours < 20:
+                    return 1
+                elif row_hours < 30:
+                    return 2
+                elif row_hours < 40:
+                    return 3
+                elif row_hours < 50:
+                    return 4
+                elif row_hours < 60:
+                    return 5
+                elif row_hours < 70:
+                    return 6
+                else:
+                    return 7
+            
+
+            # discretize age, education-num, hours-per-week
+            df['age_discrete'] = df.apply(lambda x: get_discrete_age(x), axis=1)
+            df['edu_discrete'] = df.apply(lambda x: get_discrete_edu(x), axis=1)
+            df['hours_discrete'] = df.apply(lambda x: get_discrete_hours(x), axis=1)
+            
+            # if using the modified version, we only keep certain columns
+            df = df[['age_discrete', 'edu_discrete', 'hours_discrete', 'marital-status_Married-civ-spouse' , 'relationship_Husband','relationship_Wife','gender', 'income']]
+        
+
     #% Processing for COMPAS
     elif name == 'compas':
         file = '../data/COMPAS/compas-scores-two-years.csv'
