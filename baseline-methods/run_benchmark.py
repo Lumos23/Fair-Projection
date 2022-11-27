@@ -12,11 +12,11 @@ from DataLoader import *
 sys.path.append('../data/HSLS')
 from hsls_utils import *
 
-sys.path.append('../FACT-master')
+sys.path.append('../FACT')
 from FACT.postprocess import *
 
-sys.path.append('..')
-from leveraging.utils import leveraging_approach
+sys.path.append('../leveraging-python')
+from utils import leveraging_approach
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -85,6 +85,14 @@ def main(argv):
         unprivileged_groups = [{'gender': 0}]
         protected_attrs = ['gender']
         label_name = 'income'
+
+    elif inputfile == 'adult_FATO':
+        df = load_data('adult', modified = True)
+        privileged_groups = [{'gender': 1}]
+        unprivileged_groups = [{'gender': 0}]
+        protected_attrs = ['gender']
+        label_name = 'income'
+        
         
     elif inputfile == 'compas':
         df = load_data('compas')
@@ -92,6 +100,75 @@ def main(argv):
         unprivileged_groups = [{'race': 0}]
         protected_attrs = ['race']
         label_name = 'is_recid'
+
+    elif inputfile == 'synth2':
+        file = 'synthetic/gaussian_synth2.pkl'
+        filename = path + file
+
+        df = pd.read_pickle(filename)  
+        # def sample_from_gaussian(pos_mean,
+        #                         pos_cov,
+        #                         neg_mean,
+        #                         neg_cov,
+        #                         thr=0,
+        #                         n_pos=200,
+        #                         n_neg=200,
+        #                         seed=0,
+        #                         corr_sens=True):
+        #     np.random.seed(seed)
+        #     x_pos = np.random.multivariate_normal(pos_mean, pos_cov, n_pos)
+        #     np.random.seed(seed)
+        #     x_neg = np.random.multivariate_normal(neg_mean, neg_cov, n_neg)
+        #     X = np.vstack((x_pos, x_neg))
+        #     y = np.hstack((np.ones(n_pos), np.zeros(n_neg)))
+        #     n = y.shape[0]
+        #     if corr_sens:
+        #         # correlated sens data
+        #         sens_attr = np.zeros(n)
+        #         idx = np.where(X[:,0] > thr)[0]
+        #         sens_attr[idx] = 1
+        #     else:
+        #         # independent sens data
+        #         np.random.seed(seed)
+        #         sens_attr = np.random.binomial(1, 0.5, n)
+        #     return X, y, sens_attr
+
+        # ## NOTE change these variables for different distribution/generation of synth data.
+        # pos_mean = np.array([2,2])
+        # pos_cov = np.array([[5, 1], [1,5]])
+        # neg_mean = np.array([-2,-2])
+        # neg_cov = np.array([[10, 1],[1, 3]])
+        # n_pos = 1000
+        # n_neg = 600
+        # thr = 0
+        # corr_sens = True
+        # X, y, sens = sample_from_gaussian(pos_mean,
+        #                                     pos_cov,
+        #                                     neg_mean,
+        #                                     neg_cov,
+        #                                     thr=thr,
+        #                                     n_pos=n_pos,
+        #                                     n_neg=n_neg,
+        #                                     corr_sens=corr_sens)
+        # X = np.concatenate((X, np.expand_dims(sens, 1)), axis=1)
+        # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.3, random_state=seed)
+        # dtypes = None
+        # dtypes_ = None
+        # sens_idc = [2]
+        # X_train_removed = X_train[:,:2]
+        # X_test_removed = X_test[:,:2]
+        # race_idx = None
+        # sex_idx = None
+
+        # df_array = np.hstack([X_train, y_train.reshape(-1, 1)])
+        # df = pd.DataFrame(df_array)
+        # df = df.rename(columns={0: "x0", 1: "x1", 2: "s", 3: "y"})
+
+        privileged_groups = [{'s': 0}]
+        unprivileged_groups = [{'s': 1}]
+        protected_attrs = ['s']
+        label_name = 'y'
+
         
     else: 
         print('Invalid Input Dataset Name')
@@ -108,7 +185,10 @@ def main(argv):
 
     #### Run benchmarks ####
     if fair == 'reduction':
-        eps_list = [0.001, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1, 2] # Epsilon values for reduction method #
+        # eps_list = [0.001, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1, 2] # Epsilon values for reduction method #
+        # eps_list = [ 0.1,0.5, 1, 2, 5, 10] 
+        #eps_list = [ 0.1, 0.5, 1, 2, 5, 10, 15] 
+        eps_list = [100, 150， 200, 30, 35, 40, 45, 50]
         if constraint == 'sp':
             results = bm.reduction(model, num_iter, seed, params=eps_list, constraint='DemographicParity')
         elif constraint == 'eo':
@@ -144,8 +224,9 @@ def main(argv):
         sys.exit(2)
 
 
-    result_path = './results/'
-    filename = fair+'_'+model+'_s'+str(seed)+'_' + constraint+'.pkl'
+    result_path = './adult_FATO/'
+    #result_path = './adult/'
+    filename = fair+'_'+model+'_s'+str(seed)+'_' + constraint+'_additional.pkl'
     if not os.path.exists(result_path):
         os.makedirs(result_path)
 
