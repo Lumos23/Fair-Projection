@@ -1,0 +1,1353 @@
+Setup Summary
+ Sampled Dataset Shape: (46447, 21)
+ repetition: 10
+ use_protected: True
+ use_sample_weight: True
+ tune_threshold: False
+ tolerance: [0.0, 0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1.0]
+GMB - CE - meo
+ Iteration:  1/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.233 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.200 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.200 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.200 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.317 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.200 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.217 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.200 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.500 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.083 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.367 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.200 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.267 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.183 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.517 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.183 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.183 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.217 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.183 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.517 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.200 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.350 mins
+ Total Time: 13.400 mins
+GMB - KL - meo
+ Iteration:  1/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.367 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.383 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.400 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.383 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.400 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 3.083 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.400 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.383 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.383 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 3.150 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.367 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.400 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.400 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.467 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 3.150 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.367 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.367 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.400 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.450 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 3.183 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.367 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.817 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.417 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.817 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.617 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.617 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.617 mins
+ Total Time: 28.683 mins
+GMB - CE - sp
+ Iteration:  1/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.217 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.200 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.200 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.217 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.233 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.217 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.283 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.183 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.217 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.200 mins
+ Total Time: 12.167 mins
+GMB - KL - sp
+ Iteration:  1/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.617 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.617 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.067 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.633 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.050 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.617 mins
+ Total Time: 26.283 mins
+Logit - CE - meo
+ Iteration:  1/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.117 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.117 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Total Time: 11.250 mins
+Logit - KL - meo
+ Iteration:  1/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.350 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Total Time: 25.333 mins
+Logit - CE - sp
+ Iteration:  1/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.167 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.117 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.117 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.117 mins
+ Total Time: 11.283 mins
+Logit - KL - sp
+ Iteration:  1/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.500 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.517 mins
+ Total Time: 25.200 mins
+RFC - CE - meo
+ Iteration:  1/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.150 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.117 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.150 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.150 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.133 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.150 mins
+ Total Time: 11.400 mins
+RFC - KL - meo
+ Iteration:  1/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.550 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.550 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.583 mins
+ Total Time: 25.617 mins
+RFC - CE - sp
+ Iteration:  1/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.167 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.167 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.167 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.167 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.150 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.183 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.150 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.167 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.167 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.150 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.133 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 1.167 mins
+ Total Time: 11.650 mins
+RFC - KL - sp
+ Iteration:  1/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  2/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.533 mins
+ Iteration:  3/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.550 mins
+ Iteration:  4/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.300 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  5/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.550 mins
+ Iteration:  6/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.583 mins
+ Iteration:  7/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.550 mins
+ Iteration:  8/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration:  9/10
+  Time to fit the base models: 0.000 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.333 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Iteration: 10/10
+  Time to fit the base models: 0.017 mins
+  Tolerance: 0.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0010, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0050, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0100, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.0500, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.1000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 0.5000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Tolerance: 1.0000, projection time: 0.317 mins, threshold: 0.5000, threshold time: 0.000 mins
+  Epoch Time: 2.567 mins
+ Total Time: 25.600 mins
+Total Run Time: 227.867 mins
+Finished!!!
