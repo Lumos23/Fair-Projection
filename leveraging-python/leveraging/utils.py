@@ -56,7 +56,9 @@ def odd_diffs(y, y_pred, s):
     tpr_diff = tpr1 - tpr0
     fpr_diff = fpr1 - fpr0
 
-    return np.abs((tpr_diff + fpr_diff)) / 2
+    #return np.abs((tpr_diff + fpr_diff)) / 2
+    #change it to taking the max between the two
+    return max(np.abs(tpr_diff), np.abs(fpr_diff))
 
 def search_threshold(clf, X, y, s):
     thresholds = np.arange(0.0, 1.0, 0.01)
@@ -118,8 +120,13 @@ def leveraging_approach(df, protected_attrs, label_name, use_protected, use_samp
         log.write('Iteration: {:2d}/{:2d}\n'.format(seed + 1, num_iter))
         log.flush()
         t_epoch = time.localtime()
+        
         ## train/test split using aif360.datasets.StandardDatasets
-        dataset_orig_train, dataset_orig_test = train_test_split(df, test_size=0.3, random_state=seed)
+        #dataset_orig_train, dataset_orig_test = train_test_split(df, test_size=0.3, random_state=seed)
+        
+        # instead of train/test split, we sample with replacement 
+        dataset_orig_train = df
+        dataset_orig_test = df.sample(frac=0.3, replace=True, random_state=seed)
 
         dataset_orig_train = StandardDataset(dataset_orig_train, label_name=label_name, favorable_classes=[1],
                                              protected_attribute_names=protected_attrs, privileged_classes=[[1]])
