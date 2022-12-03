@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 import pandas as pd
 import numpy as np
 from sklearn import metrics as sm
@@ -64,67 +65,98 @@ def load_data(name='adult', modified = False):
             '''
             using the selected and discretized variables as in FATO approach
             '''
-            def get_discrete_age(row):
-                '''
-                discretize the age column into 3 buckets
-                '''
-                row_age = row['age'] 
-                if row_age < 20:
-                    return 0
-                elif row_age < 30:
-                    return 1
-                elif row_age < 40:
-                    return 2
-                elif row_age < 50:
-                    return 3
-                elif row_age < 60:
-                    return 4
-                else:
-                    return 5
-        
-            def get_discrete_edu(row):
-                '''
-                discretize the education_num column into 3 buckets
-                '''
-                row_edu = row['education-num']
-                if row_edu < 10:
-                    return 0
-                elif row_edu < 13:
-                    return 1
-                else:
-                    return 2
+        def get_discrete_age(row):
+            '''
+            discretize the age column into 3 buckets
+            '''
+            row_age = row['age'] 
+            if row_age < 20:
+                return 0
+            elif row_age < 25:
+                return 1
+            elif row_age < 30:
+                return 2
+            elif row_age < 35:
+                return 3
+            elif row_age < 40:
+                return 4
+            elif row_age < 45:
+                return 5
+            elif row_age < 50:
+                return 6
+            elif row_age < 55:
+                return 7
+            elif row_age < 60:
+                return 8
+            elif row_age < 65:
+                return 9
+            elif row_age < 70:
+                return 10
+            else:
+                return 11
+       
+        def get_discrete_edu(row):
+            '''
+            discretize the education_num column into 3 buckets
+            '''
+            row_edu = row['education-num']
+            if row_edu < 10:
+                return 0
+            elif row_edu < 13:
+                return 1
+            else:
+                return 2
+     
             
-            def get_discrete_hours(row):
-                '''
-                discretize the hours per week column into intervals of 10, up till 70 hours per week
-                '''
-                row_hours = row['hours-per-week']
-                if row_hours < 10:
-                    return 0
-                elif row_hours < 20:
-                    return 1
-                elif row_hours < 30:
-                    return 2
-                elif row_hours < 40:
-                    return 3
-                elif row_hours < 50:
-                    return 4
-                elif row_hours < 60:
-                    return 5
-                elif row_hours < 70:
-                    return 6
-                else:
-                    return 7
+        def get_discrete_hours(row):
+            '''
+            discretize the hours per week column into intervals of 5, up till 70 hours per week
+            '''
+            row_hours = row['hours-per-week']
+            if row_hours < 10:
+                return 0
+            elif row_hours < 15:
+                return 1
+            elif row_hours < 20:
+                return 2
+            elif row_hours < 25:
+                return 3
+            elif row_hours < 30:
+                return 4
+            elif row_hours < 35:
+                return 5
+            elif row_hours < 40:
+                return 6
+            elif row_hours < 45:
+                return 7
+            elif row_hours < 50:
+                return 8
+            elif row_hours < 55:
+                return 9
+            elif row_hours < 60:
+                return 10
+            elif row_hours < 65:
+                return 11
+            elif row_hours < 70:
+                return 12
+            else:
+                return 13    
+            
             
 
-            # discretize age, education-num, hours-per-week
-            df['age_discrete'] = df.apply(lambda x: get_discrete_age(x), axis=1)
-            df['edu_discrete'] = df.apply(lambda x: get_discrete_edu(x), axis=1)
-            df['hours_discrete'] = df.apply(lambda x: get_discrete_hours(x), axis=1)
-            
-            # if using the modified version, we only keep certain columns
-            df = df[['age_discrete', 'edu_discrete', 'hours_discrete', 'marital-status_Married-civ-spouse' , 'relationship_Husband','relationship_Wife','gender', 'income']]
+        # discretize age, education-num, hours-per-week
+        df['age_discrete'] = df.apply(lambda x: get_discrete_age(x), axis=1)
+        # df['edu_discrete'] = df.apply(lambda x: get_discrete_edu(x), axis=1)
+        df['hours_discrete'] = df.apply(lambda x: get_discrete_hours(x), axis=1)
         
+        # without any processing
+        #df['age_discrete'] = df['age']
+        df['edu_discrete'] = df['education-num']
+        #df['hours_discrete'] = df[['hours-per-week']]
+            
+        # if using the modified version, we only keep certain columns
+        df = df[['age_discrete', 'edu_discrete', 'hours_discrete', 'marital-status_Married-civ-spouse' , 'relationship_Husband','relationship_Wife','gender', 'income']]
+    
 
     #% Processing for COMPAS
     elif name == 'compas':
@@ -178,7 +210,7 @@ def load_data(name='adult', modified = False):
         # binarize degree charged
         # Misd. = -1, Felony = 1
         df.loc[:,'c_charge_degree'] = df['c_charge_degree'].apply(lambda x: 1 if x=='F' else -1)
-               
+        
         # reset index
         df.reset_index(inplace=True,drop=True)
         
