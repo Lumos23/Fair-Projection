@@ -59,13 +59,19 @@ class Benchmark:
     
     
     def update_subresults(self, results, cm_transf_test, metric_names):
+        def abseo_metric(cm_transf_test):
+            '''
+            Instead of taking the Average of absolute difference in FPR and TPR, we take the max
+            '''
+            return max(np.abs(cm_transf_test.difference(cm_transf_test.false_positive_rate)), np.abs(cm_transf_test.difference(cm_transf_test.true_positive_rate)))
+
         for name in metric_names: 
             if name == 'sp':
                 eval_metric =  np.abs(cm_transf_test.statistical_parity_difference())
             elif name == 'avgeo': 
                 eval_metric =  np.abs(cm_transf_test.average_odds_difference())
             elif name == 'abseo':
-                eval_metric =  cm_transf_test.average_abs_odds_difference()
+                eval_metric =  abseo_metric(cm_transf_test)
             elif name == 'maxeo': 
                 eval_metric =  max(cm_transf_test.false_negative_rate_difference(), 
                                 cm_transf_test.false_positive_rate_difference())
@@ -109,14 +115,16 @@ class Benchmark:
             for seed in range (num_iter): 
                 print('Iteration #', seed)
                 start = time.time()
-                dataset_orig_train, dataset_orig_test = train_test_split(self._df, test_size=0.3, random_state=seed)    
-
+                #dataset_orig_train, dataset_orig_test = train_test_split(self._df, test_size=0.3, random_state=seed)    
+                # instead of train/test split, we sample with replacement 
+                dataset_orig_train = self._df
+                dataset_orig_test = (self._df).sample(frac=0.3, replace=True, random_state=seed)
                 ### Converting to AIF360 StandardDataset objects ###
                 dataset_orig_train = StandardDataset(dataset_orig_train, label_name=self._label_name, favorable_classes=[1],
                                                     protected_attribute_names=self._protected_attrs, privileged_classes=[[1]])
                 dataset_orig_test = StandardDataset(dataset_orig_test, label_name=self._label_name, favorable_classes=[1],
                                                     protected_attribute_names=self._protected_attrs, privileged_classes=[[1]])
-
+                
         
                 X_train, y_train = dataset_orig_train.features, dataset_orig_train.labels.ravel()
                 X_test, y_test = dataset_orig_test.features, dataset_orig_test.labels.ravel()
@@ -182,13 +190,15 @@ class Benchmark:
             print('Iteration #', seed)
             start = time.time()
             
-            dataset_orig_train, dataset_orig_vt = train_test_split(self._df, test_size=0.3, random_state=seed)
-            dataset_orig_valid, dataset_orig_test = train_test_split(dataset_orig_vt, test_size=0.5, random_state=seed)
+            # instead of train/test split, we sample with replacement 
+            dataset_orig_train = self._df
+            dataset_orig_test = (self._df).sample(frac=0.3, replace=True, random_state=seed)
+            dataset_orig_valid = (self._df).sample(frac=0.4, replace=True, random_state=seed)
 
 
             ### Converting to AIF360 StandardDataset objects ###
             dataset_orig_train = StandardDataset(dataset_orig_train, label_name=self._label_name, favorable_classes=[1],
-                                                protected_attribute_names=self._protected_attrs, privileged_classes=[[1]])
+                                                 protected_attribute_names=self._protected_attrs, privileged_classes=[[1]])
             dataset_orig_valid = StandardDataset(dataset_orig_valid, label_name=self._label_name, favorable_classes=[1],
                                                 protected_attribute_names=self._protected_attrs, privileged_classes=[[1]])
             dataset_orig_test = StandardDataset(dataset_orig_test, label_name=self._label_name, favorable_classes=[1],
@@ -301,9 +311,14 @@ class Benchmark:
                 print('Iteration #', seed)
                 
                 start = time.time()
+                
+                # instead of train/test split, we sample with replacement 
+                dataset_orig_train = self._df
+                dataset_orig_test = (self._df).sample(frac=0.3, replace=True, random_state=seed)
+                dataset_orig_valid = (self._df).sample(frac=0.4, replace=True, random_state=seed)
 
-                dataset_orig_train, dataset_orig_vt = train_test_split(self._df, test_size=0.3, random_state=seed)
-                dataset_orig_valid, dataset_orig_test = train_test_split(dataset_orig_vt, test_size=0.5, random_state=seed)
+                # dataset_orig_train, dataset_orig_vt = train_test_split(self._df, test_size=0.3, random_state=seed)
+                # dataset_orig_valid, dataset_orig_test = train_test_split(dataset_orig_vt, test_size=0.5, random_state=seed)
 
                 ### Converting to AIF360 StandardDataset objects ###
                 dataset_orig_train = StandardDataset(dataset_orig_train, label_name=self._label_name, favorable_classes=[1],
@@ -402,8 +417,12 @@ class Benchmark:
             print('Iteration #', seed)
             start = time.time()
             
-            dataset_orig_train, dataset_orig_test = train_test_split(self._df, test_size=0.3, random_state=seed)    
+            #dataset_orig_train, dataset_orig_test = train_test_split(self._df, test_size=0.3, random_state=seed)    
 
+            # instead of train/test split, we sample with replacement 
+            dataset_orig_train = self._df
+            dataset_orig_test = self._df
+            #(self._df).sample(frac=0.3, replace=True, random_state=seed)
 
             ### Converting to AIF360 StandardDataset objects ###
             dataset_orig_train = StandardDataset(dataset_orig_train, label_name=self._label_name, favorable_classes=[1],
